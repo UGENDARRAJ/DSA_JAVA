@@ -8,6 +8,7 @@ public class Sorting {
         // selection(arr);
         // bubble(arr);
         insertion(arr);
+        // merge(arr);
         System.out.println(Arrays.toString(arr));
     }
 
@@ -43,6 +44,16 @@ public class Sorting {
             }
         }
     }
+
+    //  QUICK SORT
+    static void quick(int[] arr){
+        
+    }
+
+
+
+
+
 //  FIND THE MAXIMUM ELEMENT
     static int getmaxindex(int[]arr, int start, int end){
         int max = start;
